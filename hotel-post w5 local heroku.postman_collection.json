@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "73fada95-302b-44a5-b6b3-145054b9ab86",
-		"name": "hotel/post w5 local",
+		"_postman_id": "00bf17e4-98e8-490d-9d25-28683d39397f",
+		"name": "hotel/post w5 local heroku",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -11,14 +11,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:3005/post",
+					"raw": "https://floating-atoll-06255.herokuapp.com/post",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"floating-atoll-06255",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
 						"post"
 					]
@@ -32,14 +31,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:3005/post/search?q=",
+					"raw": "https://floating-atoll-06255.herokuapp.com/post/search?q=1",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"floating-atoll-06255",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
 						"post",
 						"search"
@@ -47,7 +45,7 @@
 					"query": [
 						{
 							"key": "q",
-							"value": ""
+							"value": "1"
 						}
 					]
 				}
@@ -61,7 +59,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"user\": \"626e1d09c57b189186b73e80\",\r\n    \"content\": \"Controller createPost測試\",\r\n    \"type\": \"3c\",\r\n    \"tags\": [\"controller\"],\r\n    \"image\":\"\"\r\n}",
+					"raw": "{\r\n\r\n    \"type\": \"3c\",\r\n    \"tags\": [\"controller\"],\r\n    \"image\":\"\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -69,14 +67,13 @@
 					}
 				},
 				"url": {
-					"raw": "127.0.0.1:3005/post",
+					"raw": "https://floating-atoll-06255.herokuapp.com/post",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"floating-atoll-06255",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
 						"post"
 					],
@@ -106,17 +103,16 @@
 					}
 				},
 				"url": {
-					"raw": "127.0.0.1:3005/post/627e173c00b794fbb8dae68a",
+					"raw": "https://floating-atoll-06255.herokuapp.com/post/6282752031b5acd2d3f3e220",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"floating-atoll-06255",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
 						"post",
-						"627e173c00b794fbb8dae68a"
+						"6282752031b5acd2d3f3e220"
 					]
 				}
 			},
@@ -128,14 +124,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:3005/post/6279d148f452ac857d6e4722",
+					"raw": "https://floating-atoll-06255.herokuapp.com/post/6279d148f452ac857d6e4722",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"floating-atoll-06255",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
 						"post",
 						"6279d148f452ac857d6e4722"
@@ -159,14 +154,13 @@
 					}
 				},
 				"url": {
-					"raw": "127.0.0.1:3005/post/627e173c00b794fbb8dae68a/like",
+					"raw": "https://floating-atoll-06255.herokuapp.com/post/627e173c00b794fbb8dae68a/like",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"floating-atoll-06255",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
 						"post",
 						"627e173c00b794fbb8dae68a",
@@ -182,14 +176,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "127.0.0.1:3005/user",
+					"raw": "https://floating-atoll-06255.herokuapp.com/user",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"floating-atoll-06255",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
 						"user"
 					]
